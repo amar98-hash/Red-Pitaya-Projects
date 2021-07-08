@@ -1,0 +1,6 @@
+cmake --build . --target all
+Scanning dependencies of target First_RedPitaya_proj
+[ 50%] Building CXX object CMakeFiles/First_RedPitaya_proj.dir/First_RedPitaya_proj.cpp.o
+[100%] Linking CXX executable First_RedPitaya_proj
+[100%] Built target First_RedPitaya_proj
+Build complete (0 errors, 0 warnings): /home/amar/eclipse-workspace/First_RedPitaya_proj/build/default

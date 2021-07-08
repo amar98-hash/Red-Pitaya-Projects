@@ -1,0 +1,15 @@
+22:51:39 **** Build of configuration Debug for project red_pitaya_first ****
+make all 
+Building file: ../led_blink.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"led_blink.d" -MT"led_blink.o" -o "led_blink.o" "../led_blink.c"
+Finished building: ../led_blink.c
+ 
+Building target: red_pitaya_first
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "red_pitaya_first"  ./led_blink.o   -lrp -lm -lpthread
+Finished building target: red_pitaya_first
+ 
+
+22:51:41 Build Finished. 0 errors, 0 warnings. (took 2s.284ms)
+
