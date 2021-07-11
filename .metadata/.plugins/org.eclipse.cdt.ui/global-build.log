@@ -1,42 +1,680 @@
-Configuring in: /home/amar/eclipse-workspace/First_RedPitaya_proj/build/default
-cmake -G Unix Makefiles -DCMAKE_EXPORT_COMPILE_COMMANDS=ON /home/amar/eclipse-workspace/First_RedPitaya_proj
--- The C compiler identification is GNU 7.5.0
--- The CXX compiler identification is GNU 7.5.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
--- Check for working CXX compiler: /usr/bin/c++
--- Check for working CXX compiler: /usr/bin/c++ -- works
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Configuring done
--- Generating done
--- Build files have been written to: /home/amar/eclipse-workspace/First_RedPitaya_proj/build/default
-Building in: /home/amar/eclipse-workspace/First_RedPitaya_proj/build/default
-cmake --build . --target all
-Scanning dependencies of target First_RedPitaya_proj
-[ 50%] Building CXX object CMakeFiles/First_RedPitaya_proj.dir/First_RedPitaya_proj.cpp.o
-[100%] Linking CXX executable First_RedPitaya_proj
-[100%] Built target First_RedPitaya_proj
-Build complete (0 errors, 0 warnings): /home/amar/eclipse-workspace/First_RedPitaya_proj/build/default
-
-**** Build of configuration Debug for project Red_Pitaya01 ****
-
-Nothing to build for project Red_Pitaya01
-22:51:39 **** Build of configuration Debug for project red_pitaya_first ****
-make all 
-Building file: ../led_blink.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"led_blink.d" -MT"led_blink.o" -o "led_blink.o" "../led_blink.c"
-Finished building: ../led_blink.c
+22:09:11 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
  
-Building target: red_pitaya_first
+
+22:09:12 Build Finished. 0 errors, 0 warnings. (took 1s.23ms)
+
+22:09:20 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:77:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
 Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "red_pitaya_first"  ./led_blink.o   -lrp -lm -lpthread
-Finished building target: red_pitaya_first
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+22:12:06 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+22:12:07 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:77:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+22:12:12 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+22:13:36 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+22:13:45 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:77:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+22:23:55 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+22:23:59 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:79:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:17:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+22:26:09 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+22:26:22 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+22:26:29 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:17:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+22:35:29 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+22:35:36 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:17:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+03:54:18 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+03:54:19 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
+     printf("%d",state);
+             ~^  ~~~~~
+../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+03:54:48 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+04:01:32 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:01:33 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
+     printf("%d",state);
+             ~^  ~~~~~
+../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:01:44 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+04:05:57 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:05:58 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
+     printf("%d",state);
+             ~^  ~~~~~
+../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:06:07 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+04:09:57 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:09:58 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
+     printf("%d",state);
+             ~^  ~~~~~
+../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+      usleep(560);//bit period of input bits.
+      ^~~~~~
+      fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:10:12 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+04:14:33 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:14:35 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c:11:1: error: expected ‘,’ or ‘;’ before ‘void’
+ void ir_input_buffer(rp_pinState_t *state);
+ ^~~~
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
+     printf("%d",state);
+             ~^  ~~~~~
+../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+      usleep(bit_period);//bit period of input bits.
+      ^~~~~~
+      fseek
+subdir.mk:18: recipe for target 'shift_reg_rp.o' failed
+make: *** [shift_reg_rp.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+04:14:54 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:14:55 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
+     printf("%d",state);
+             ~^  ~~~~~
+../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+      usleep(bit_period);//bit period of input bits.
+      ^~~~~~
+      fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:15:01 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+04:22:08 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:22:09 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
+     printf("%d",state);
+             ~^  ~~~~~
+../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+      usleep(bit_period);//bit period of input bits.
+      ^~~~~~
+      fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:22:14 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+04:30:23 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:30:24 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
+     printf("%d",state);
+             ~^  ~~~~~
+../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+      usleep(bit_period);//bit period of input bits.
+      ^~~~~~
+      fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:30:31 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+04:34:44 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:34:45 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:84:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:34:52 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+04:41:05 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:41:07 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:84:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:43:32 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:43:33 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:84:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+04:58:34 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+04:58:35 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:87:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+05:01:40 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+05:01:41 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:87:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+05:19:08 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+05:19:09 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:93:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+05:22:11 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+05:22:12 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:96:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+05:24:02 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+05:24:03 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:96:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
+     printf("%d",state);
+     ^~~~~~~~~~~~~~~~~~
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+05:34:20 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+05:34:21 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c:15:5: error: variably modified ‘state_arr’ at file scope
+ int state_arr[array_size];
+     ^~~~~~~~~
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:55:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+make: *** [shift_reg_rp.o] Error 1
+subdir.mk:18: recipe for target 'shift_reg_rp.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+05:36:45 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+05:36:46 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:57:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+05:42:36 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+05:42:37 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:57:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+05:58:20 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+05:58:21 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:57:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+05:58:29 **** Incremental Build of configuration Debug for project shift_reg ****
+make all 
+make: Nothing to be done for 'all'.
+06:02:52 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+06:02:53 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:57:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
+ 
+06:15:48 **** Clean-only build of configuration Debug for project shift_reg ****
+make clean 
+rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+ 
+06:15:49 **** Build of configuration Debug for project shift_reg ****
+make all 
+Building file: ../shift_reg_rp.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
+../shift_reg_rp.c: In function ‘main’:
+../shift_reg_rp.c:58:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+         usleep(period/2);
+         ^~~~~~
+         fseek
+Finished building: ../shift_reg_rp.c
+ 
+Building target: shift_reg
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
+Finished building target: shift_reg
  
