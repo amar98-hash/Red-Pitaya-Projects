@@ -1,680 +1,988 @@
-22:09:11 **** Clean-only build of configuration Debug for project shift_reg ****
+07:52:14 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
 make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
  
-
-22:09:12 Build Finished. 0 errors, 0 warnings. (took 1s.23ms)
-
-22:09:20 **** Build of configuration Debug for project shift_reg ****
+07:52:15 **** Build of configuration Debug for project kissFFTproj1 ****
 make all 
-Building file: ../shift_reg_rp.c
+Building file: ../RP-FFTproj1.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:77:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-22:12:06 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-22:12:07 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:77:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-22:12:12 **** Incremental Build of configuration Debug for project shift_reg ****
-make all 
-make: Nothing to be done for 'all'.
-22:13:36 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-22:13:45 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:77:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-22:23:55 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-22:23:59 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:79:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:17:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-22:26:09 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-22:26:22 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-22:26:29 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:17:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-22:35:29 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-22:35:36 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:17:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-03:54:18 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-03:54:19 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
-     printf("%d",state);
-             ~^  ~~~~~
-../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-03:54:48 **** Incremental Build of configuration Debug for project shift_reg ****
-make all 
-make: Nothing to be done for 'all'.
-04:01:32 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:01:33 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
-     printf("%d",state);
-             ~^  ~~~~~
-../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-04:01:44 **** Incremental Build of configuration Debug for project shift_reg ****
-make all 
-make: Nothing to be done for 'all'.
-04:05:57 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:05:58 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
-     printf("%d",state);
-             ~^  ~~~~~
-../shift_reg_rp.c:81:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-04:06:07 **** Incremental Build of configuration Debug for project shift_reg ****
-make all 
-make: Nothing to be done for 'all'.
-04:09:57 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:09:58 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
-     printf("%d",state);
-             ~^  ~~~~~
-../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-      usleep(560);//bit period of input bits.
-      ^~~~~~
-      fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-04:10:12 **** Incremental Build of configuration Debug for project shift_reg ****
-make all 
-make: Nothing to be done for 'all'.
-04:14:33 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:14:35 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c:11:1: error: expected ‘,’ or ‘;’ before ‘void’
- void ir_input_buffer(rp_pinState_t *state);
- ^~~~
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
-     printf("%d",state);
-             ~^  ~~~~~
-../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-      usleep(bit_period);//bit period of input bits.
-      ^~~~~~
-      fseek
-subdir.mk:18: recipe for target 'shift_reg_rp.o' failed
-make: *** [shift_reg_rp.o] Error 1
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c:7:10: fatal error: kissFFT.h: No such file or directory
+ #include "kissFFT.h"
+          ^~~~~~~~~~~
+compilation terminated.
+subdir.mk:18: recipe for target 'RP-FFTproj1.o' failed
+make: *** [RP-FFTproj1.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-04:14:54 **** Clean-only build of configuration Debug for project shift_reg ****
+07:52:32 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
 make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
  
-04:14:55 **** Build of configuration Debug for project shift_reg ****
+07:52:33 **** Build of configuration Debug for project kissFFTproj1 ****
 make all 
-Building file: ../shift_reg_rp.c
+Building file: ../RP-FFTproj1.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
-     printf("%d",state);
-             ~^  ~~~~~
-../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-      usleep(bit_period);//bit period of input bits.
-      ^~~~~~
-      fseek
-Finished building: ../shift_reg_rp.c
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
  
-Building target: shift_reg
+Building target: kissFFTproj1
 Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
  
-04:15:01 **** Incremental Build of configuration Debug for project shift_reg ****
+07:55:23 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+07:55:24 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+07:55:34 **** Incremental Build of configuration Debug for project kissFFTproj1 ****
 make all 
 make: Nothing to be done for 'all'.
-04:22:08 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:22:09 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
-     printf("%d",state);
-             ~^  ~~~~~
-../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-      usleep(bit_period);//bit period of input bits.
-      ^~~~~~
-      fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-04:22:14 **** Incremental Build of configuration Debug for project shift_reg ****
+07:56:04 **** Incremental Build of configuration Debug for project kissFFTproj1 ****
 make all 
 make: Nothing to be done for 'all'.
-04:30:23 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:30:24 **** Build of configuration Debug for project shift_reg ****
+07:57:12 **** Incremental Build of configuration Debug for project kissFFTproj1 ****
 make all 
-Building file: ../shift_reg_rp.c
+Building file: ../RP-FFTproj1.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:17:14: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘rp_pinState_t * {aka enum <anonymous> *}’ [-Wformat=]
-     printf("%d",state);
-             ~^  ~~~~~
-../shift_reg_rp.c:56:6: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-      usleep(bit_period);//bit period of input bits.
-      ^~~~~~
-      fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-04:30:31 **** Incremental Build of configuration Debug for project shift_reg ****
-make all 
-make: Nothing to be done for 'all'.
-04:34:44 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:34:45 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:84:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-04:34:52 **** Incremental Build of configuration Debug for project shift_reg ****
-make all 
-make: Nothing to be done for 'all'.
-04:41:05 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:41:07 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:84:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-04:43:32 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:43:33 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:84:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-04:58:34 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-04:58:35 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:87:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-05:01:40 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-05:01:41 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:87:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-05:19:08 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-05:19:09 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:93:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-05:22:11 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-05:22:12 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:96:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-05:24:02 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-05:24:03 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:96:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-../shift_reg_rp.c:19:5: warning: ‘state’ is used uninitialized in this function [-Wuninitialized]
-     printf("%d",state);
-     ^~~~~~~~~~~~~~~~~~
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-05:34:20 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-05:34:21 **** Build of configuration Debug for project shift_reg ****
-make all 
-Building file: ../shift_reg_rp.c
-Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c:15:5: error: variably modified ‘state_arr’ at file scope
- int state_arr[array_size];
-     ^~~~~~~~~
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:55:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-make: *** [shift_reg_rp.o] Error 1
-subdir.mk:18: recipe for target 'shift_reg_rp.o' failed
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c:8:10: fatal error: util/delay.h: No such file or directory
+ #include <util/delay.h>
+          ^~~~~~~~~~~~~~
+subdir.mk:18: recipe for target 'RP-FFTproj1.o' failed
+compilation terminated.
+make: *** [RP-FFTproj1.o] Error 1
 "make all" terminated with exit code 2. Build might be incomplete.
-05:36:45 **** Clean-only build of configuration Debug for project shift_reg ****
-make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
- 
-05:36:46 **** Build of configuration Debug for project shift_reg ****
+07:57:37 **** Incremental Build of configuration Debug for project kissFFTproj1 ****
 make all 
-Building file: ../shift_reg_rp.c
+Building file: ../RP-FFTproj1.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:57:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
- 
-Building target: shift_reg
-Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-05:42:36 **** Clean-only build of configuration Debug for project shift_reg ****
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c:8:10: fatal error: util/delay.h: No such file or directory
+ #include <util/delay.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+subdir.mk:18: recipe for target 'RP-FFTproj1.o' failed
+make: *** [RP-FFTproj1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:57:47 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
 make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
  
-05:42:37 **** Build of configuration Debug for project shift_reg ****
+07:57:49 **** Build of configuration Debug for project kissFFTproj1 ****
 make all 
-Building file: ../shift_reg_rp.c
+Building file: ../RP-FFTproj1.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:57:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:20:1: warning: implicit declaration of function ‘_delay_ms’ [-Wimplicit-function-declaration]
+ _delay_ms(2000);
+ ^~~~~~~~~
+../RP-FFTproj1.c:21:1: warning: implicit declaration of function ‘print’; did you mean ‘lrint’? [-Wimplicit-function-declaration]
+ print("Hello WORLD\n");
+ ^~~~~
+ lrint
+Finished building: ../RP-FFTproj1.c
  
-Building target: shift_reg
+Building target: kissFFTproj1
 Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-05:58:20 **** Clean-only build of configuration Debug for project shift_reg ****
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+./RP-FFTproj1.o: In function `main':
+/home/amar/eclipse-workspace/kissFFTproj1/Debug/../RP-FFTproj1.c:20: undefined reference to `_delay_ms'
+makefile:43: recipe for target 'kissFFTproj1' failed
+/home/amar/eclipse-workspace/kissFFTproj1/Debug/../RP-FFTproj1.c:21: undefined reference to `print'
+collect2: error: ld returned 1 exit status
+make: *** [kissFFTproj1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:58:16 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
 make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
  
-05:58:21 **** Build of configuration Debug for project shift_reg ****
+07:58:17 **** Build of configuration Debug for project kissFFTproj1 ****
 make all 
-Building file: ../shift_reg_rp.c
+Building file: ../RP-FFTproj1.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:57:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:20:1: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+ usleep(2000);
+ ^~~~~~
+ fseek
+../RP-FFTproj1.c:21:1: warning: implicit declaration of function ‘print’; did you mean ‘lrint’? [-Wimplicit-function-declaration]
+ print("Hello WORLD\n");
+ ^~~~~
+ lrint
+Finished building: ../RP-FFTproj1.c
  
-Building target: shift_reg
+Building target: kissFFTproj1
 Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
- 
-05:58:29 **** Incremental Build of configuration Debug for project shift_reg ****
-make all 
-make: Nothing to be done for 'all'.
-06:02:52 **** Clean-only build of configuration Debug for project shift_reg ****
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+./RP-FFTproj1.o: In function `main':
+/home/amar/eclipse-workspace/kissFFTproj1/Debug/../RP-FFTproj1.c:21: undefined reference to `print'
+collect2: error: ld returned 1 exit status
+makefile:43: recipe for target 'kissFFTproj1' failed
+make: *** [kissFFTproj1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+07:58:47 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
 make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
  
-06:02:53 **** Build of configuration Debug for project shift_reg ****
+07:58:48 **** Build of configuration Debug for project kissFFTproj1 ****
 make all 
-Building file: ../shift_reg_rp.c
+Building file: ../RP-FFTproj1.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:57:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:20:1: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+ usleep(2000);
+ ^~~~~~
+ fseek
+Finished building: ../RP-FFTproj1.c
  
-Building target: shift_reg
+Building target: kissFFTproj1
 Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
  
-06:15:48 **** Clean-only build of configuration Debug for project shift_reg ****
+08:00:08 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
 make clean 
-rm -rf  ./shift_reg_rp.o  ./shift_reg_rp.d  shift_reg
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
  
-06:15:49 **** Build of configuration Debug for project shift_reg ****
+08:00:09 **** Build of configuration Debug for project kissFFTproj1 ****
 make all 
-Building file: ../shift_reg_rp.c
+Building file: ../RP-FFTproj1.c
 Invoking: Cross GCC Compiler
-arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"shift_reg_rp.d" -MT"shift_reg_rp.o" -o "shift_reg_rp.o" "../shift_reg_rp.c"
-../shift_reg_rp.c: In function ‘main’:
-../shift_reg_rp.c:58:9: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
-         usleep(period/2);
-         ^~~~~~
-         fseek
-Finished building: ../shift_reg_rp.c
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
  
-Building target: shift_reg
+Building target: kissFFTproj1
 Invoking: Cross GCC Linker
-arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "shift_reg"  ./shift_reg_rp.o   -lrp -lpthread -lm
-Finished building target: shift_reg
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+08:00:20 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:00:21 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:22:1: warning: implicit declaration of function ‘usleep’; did you mean ‘fseek’? [-Wimplicit-function-declaration]
+ usleep(2000);
+ ^~~~~~
+ fseek
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+08:00:33 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:00:34 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+08:04:20 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:04:21 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:19:3: warning: ‘cfg’ is used uninitialized in this function [-Wuninitialized]
+   kiss_fft(cfg, fin, fout);
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+../RP-FFTproj1.c:19:3: warning: ‘fin’ is used uninitialized in this function [-Wuninitialized]
+../RP-FFTproj1.c:19:3: warning: ‘fout’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+./RP-FFTproj1.o: In function `main':
+/home/amar/eclipse-workspace/kissFFTproj1/Debug/../RP-FFTproj1.c:19: undefined reference to `kiss_fft'
+collect2: error: ld returned 1 exit status
+makefile:43: recipe for target 'kissFFTproj1' failed
+make: *** [kissFFTproj1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:05:42 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:05:43 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:19:3: warning: ‘cfg’ is used uninitialized in this function [-Wuninitialized]
+   kiss_fft(cfg, fin, fout);
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+../RP-FFTproj1.c:19:3: warning: ‘fin’ is used uninitialized in this function [-Wuninitialized]
+../RP-FFTproj1.c:19:3: warning: ‘fout’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+./RP-FFTproj1.o: In function `main':
+/home/amar/eclipse-workspace/kissFFTproj1/Debug/../RP-FFTproj1.c:19: undefined reference to `kiss_fft'
+collect2: error: ld returned 1 exit status
+makefile:43: recipe for target 'kissFFTproj1' failed
+make: *** [kissFFTproj1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:06:23 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:06:25 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:19:3: warning: ‘cfg’ is used uninitialized in this function [-Wuninitialized]
+   kiss_fft(cfg, fin, fout);
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+../RP-FFTproj1.c:19:3: warning: ‘fin’ is used uninitialized in this function [-Wuninitialized]
+../RP-FFTproj1.c:19:3: warning: ‘fout’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm -lkiss_fft
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lkiss_fft
+makefile:43: recipe for target 'kissFFTproj1' failed
+collect2: error: ld returned 1 exit status
+make: *** [kissFFTproj1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:09:10 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:09:11 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:19:3: warning: ‘cfg’ is used uninitialized in this function [-Wuninitialized]
+   kiss_fft(cfg, fin, fout);
+   ^~~~~~~~~~~~~~~~~~~~~~~~
+../RP-FFTproj1.c:19:3: warning: ‘fin’ is used uninitialized in this function [-Wuninitialized]
+../RP-FFTproj1.c:19:3: warning: ‘fout’ is used uninitialized in this function [-Wuninitialized]
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm -lkiss_fft
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lkiss_fft
+collect2: error: ld returned 1 exit status
+makefile:43: recipe for target 'kissFFTproj1' failed
+make: *** [kissFFTproj1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:23:08 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:28:30 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:28:31 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+08:28:33 **** Build of configuration Debug for project red_pitaya_first ****
+make all 
+Building file: ../led_blink.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"led_blink.d" -MT"led_blink.o" -o "led_blink.o" "../led_blink.c"
+Finished building: ../led_blink.c
+ 
+Building target: red_pitaya_first
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -o "red_pitaya_first"  ./led_blink.o   -lrp -lm -lpthread
+Finished building target: red_pitaya_first
+ 
+08:28:55 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:28:56 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+08:28:57 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm -lkiss_fft
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin/../lib/gcc/arm-linux-gnueabihf/7.3.1/../../../../arm-linux-gnueabihf/bin/ld: cannot find -lkiss_fft
+makefile:43: recipe for target 'kissFFTproj1' failed
+collect2: error: ld returned 1 exit status
+make: *** [kissFFTproj1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:38:35 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:38:36 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+08:38:37 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o   -lrp -lpthread -lm
+./RP-FFTproj1.o: In function `main':
+/home/amar/eclipse-workspace/kissFFTproj1/Debug/../RP-FFTproj1.c:17: undefined reference to `kiss_fft_alloc'
+makefile:43: recipe for target 'kissFFTproj1' failed
+/home/amar/eclipse-workspace/kissFFTproj1/Debug/../RP-FFTproj1.c:25: undefined reference to `kiss_fft'
+collect2: error: ld returned 1 exit status
+make: *** [kissFFTproj1] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+08:45:53 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o  ./RP-FFTproj1.d  kissFFTproj1
+ 
+08:45:54 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+08:45:55 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+08:56:26 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+08:56:27 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+08:56:28 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:31:13: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+    printf("%d+%d j\n",fin[i].r,fin[i].i);
+            ~^         ~~~~~~~~
+            %f
+../RP-FFTproj1.c:31:16: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘double’ [-Wformat=]
+    printf("%d+%d j\n",fin[i].r,fin[i].i);
+               ~^               ~~~~~~~~
+               %f
+../RP-FFTproj1.c:36:15: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘double’ [-Wformat=]
+      printf("%d+%d j\n",fin[i].r,fin[i].i);
+              ~^         ~~~~~~~~
+              %f
+../RP-FFTproj1.c:36:18: warning: format ‘%d’ expects argument of type ‘int’, but argument 3 has type ‘double’ [-Wformat=]
+      printf("%d+%d j\n",fin[i].r,fin[i].i);
+                 ~^               ~~~~~~~~
+                 %f
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+08:56:52 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+08:56:53 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+08:56:54 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+08:58:39 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+08:58:40 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+08:58:41 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+09:12:41 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+09:12:42 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+09:12:43 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c:10:0: warning: "M_PI" redefined
+ #define M_PI 3.14159265359
+ 
+In file included from /home/amar/eclipse-workspace/kiss_fft/kiss_fft.h:6:0,
+                 from ../RP-FFTproj1.c:8:
+/tools/Xilinx/SDK/2018.3/gnu/aarch32/lin/gcc-arm-linux-gnueabi/arm-linux-gnueabihf/libc/usr/include/math.h:642:0: note: this is the location of the previous definition
+ # define M_PI  3.14159265358979323846 /* pi */
+ 
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+09:13:13 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+09:13:14 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+09:13:15 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+09:15:50 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+09:15:51 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+09:15:52 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+09:16:48 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+09:16:50 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+09:16:51 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+12:26:55 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:26:56 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:26:57 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:18:2: error: variable-sized object may not be initialized
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+  ^~~~~
+../RP-FFTproj1.c:18:22: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                      ^
+../RP-FFTproj1.c:18:22: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:24: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                        ^
+../RP-FFTproj1.c:18:24: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:26: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                          ^
+../RP-FFTproj1.c:18:26: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:29: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                             ^
+../RP-FFTproj1.c:18:29: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:31: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                               ^
+../RP-FFTproj1.c:18:31: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:33: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                                 ^
+../RP-FFTproj1.c:18:33: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:35: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                                   ^
+../RP-FFTproj1.c:18:35: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:37: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                                     ^
+../RP-FFTproj1.c:18:37: note: (near initialization for ‘SINE’)
+subdir.mk:21: recipe for target 'RP-FFTproj1.o' failed
+make: *** [RP-FFTproj1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:28:10 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:28:11 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:28:12 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:18:2: error: variable-sized object may not be initialized
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+  ^~~~~
+../RP-FFTproj1.c:18:22: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                      ^
+../RP-FFTproj1.c:18:22: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:24: warning: excess elements in array initializer
+subdir.mk:21: recipe for target 'RP-FFTproj1.o' failed
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                        ^
+../RP-FFTproj1.c:18:24: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:26: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                          ^
+../RP-FFTproj1.c:18:26: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:29: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                             ^
+../RP-FFTproj1.c:18:29: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:31: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                               ^
+../RP-FFTproj1.c:18:31: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:33: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                                 ^
+../RP-FFTproj1.c:18:33: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:35: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                                   ^
+../RP-FFTproj1.c:18:35: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:37: warning: excess elements in array initializer
+  float SINE[period]={2,1,-1,5,0,3,0,-4};
+                                     ^
+../RP-FFTproj1.c:18:37: note: (near initialization for ‘SINE’)
+make: *** [RP-FFTproj1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:29:31 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:29:33 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:29:34 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:18:2: error: variable-sized object may not be initialized
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+  ^~~
+../RP-FFTproj1.c:18:20: warning: excess elements in array initializer
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+                    ^
+../RP-FFTproj1.c:18:20: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:22: warning: excess elements in array initializer
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+                      ^
+../RP-FFTproj1.c:18:22: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:24: warning: excess elements in array initializer
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+                        ^
+../RP-FFTproj1.c:18:24: note: (near initialization for ‘SINE’)
+subdir.mk:21: recipe for target 'RP-FFTproj1.o' failed
+../RP-FFTproj1.c:18:27: warning: excess elements in array initializer
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+                           ^
+../RP-FFTproj1.c:18:27: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:29: warning: excess elements in array initializer
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+                             ^
+../RP-FFTproj1.c:18:29: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:31: warning: excess elements in array initializer
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+                               ^
+../RP-FFTproj1.c:18:31: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:33: warning: excess elements in array initializer
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+                                 ^
+../RP-FFTproj1.c:18:33: note: (near initialization for ‘SINE’)
+../RP-FFTproj1.c:18:35: warning: excess elements in array initializer
+  int SINE[period]={2,1,-1,5,0,3,0,-4};
+                                   ^
+../RP-FFTproj1.c:18:35: note: (near initialization for ‘SINE’)
+make: *** [RP-FFTproj1.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+12:32:43 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:32:44 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:32:45 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+12:40:21 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:40:22 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:40:23 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+../RP-FFTproj1.c: In function ‘main’:
+../RP-FFTproj1.c:19:6: error: redefinition of ‘period’
+  int period = sizeof(SINE);
+      ^~~~~~
+../RP-FFTproj1.c:14:6: note: previous definition of ‘period’ was here
+  int period=8;
+      ^~~~~~
+make: *** [RP-FFTproj1.o] Error 1
+subdir.mk:21: recipe for target 'RP-FFTproj1.o' failed
+"make all" terminated with exit code 2. Build might be incomplete.
+12:41:30 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:41:31 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:41:32 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+12:42:10 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:42:11 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:42:12 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+12:42:24 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:42:25 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:42:26 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+12:43:40 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:43:41 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:43:42 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+12:44:47 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:44:48 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:44:49 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+12:46:11 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:46:12 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:46:13 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
+ 
+12:39:04 **** Clean-only build of configuration Debug for project kissFFTproj1 ****
+make clean 
+rm -rf  ./RP-FFTproj1.o ./kiss_fft.o  ./RP-FFTproj1.d ./kiss_fft.d  kissFFTproj1
+ 
+12:39:05 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
+12:39:06 **** Build of configuration Debug for project kissFFTproj1 ****
+make all 
+Building file: ../RP-FFTproj1.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"RP-FFTproj1.d" -MT"RP-FFTproj1.o" -o "RP-FFTproj1.o" "../RP-FFTproj1.c"
+Finished building: ../RP-FFTproj1.c
+ 
+Building file: ../kiss_fft.c
+Invoking: Cross GCC Compiler
+arm-linux-gnueabihf-gcc -I/home/amar/eclipse-workspace -I/home/amar/eclipse-workspace/kiss_fft -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"kiss_fft.d" -MT"kiss_fft.o" -o "kiss_fft.o" "../kiss_fft.c"
+Finished building: ../kiss_fft.c
+ 
+Building target: kissFFTproj1
+Invoking: Cross GCC Linker
+arm-linux-gnueabihf-gcc -L/home/amar/eclipse-workspace -L/home/amar/eclipse-workspace/kiss_fft -o "kissFFTproj1"  ./RP-FFTproj1.o ./kiss_fft.o   -lrp -lpthread -lm
+Finished building target: kissFFTproj1
  

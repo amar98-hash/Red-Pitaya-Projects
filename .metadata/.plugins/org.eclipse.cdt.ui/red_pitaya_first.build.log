@@ -1,6 +1,7 @@
-18:53:48 **** Incremental Build of configuration Debug for project red_pitaya_first ****
-make all 
-make: Nothing to be done for 'all'.
+12:39:05 **** Clean-only build of configuration Debug for project red_pitaya_first ****
+make clean 
+rm -rf  ./led_blink.o  ./led_blink.d  red_pitaya_first
+ 
 
-18:53:50 Build Finished. 0 errors, 0 warnings. (took 1s.239ms)
+12:39:06 Build Finished. 0 errors, 0 warnings. (took 1s.33ms)
 
